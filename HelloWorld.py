@@ -16,3 +16,27 @@ print("Welcome!`")
 numbers = {1, 2, 3, 4, 5}t
 total = sum(numbers)
 average = total / len(numbers)
+
+# this part was added by a colleague
+
+numbers = []
+
+while True:
+    try:
+        num = float(input("Enter a number, any non num value will quit): 
+"))
+        numbers.append(num)
+    except ValueError:
+        break
+
+if numbers:
+    smallest = min(numbers)
+    largest = max(numbers)
+    print(f"Smallest number: {smallest}")
+    print(f"Largest number: {largest}")
+else:
+    print("No valid numbers entered")
+ 
+# second update to try again
+
+print("HELLO")
