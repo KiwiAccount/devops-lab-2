@@ -10,3 +10,9 @@ print("This is a new string")
 # Oh its saying something again
 
 print("Welcome!`")
+
+# Average
+
+numbers = {1, 2, 3, 4, 5}t
+total = sum(numbers)
+average = total / len(numbers)
