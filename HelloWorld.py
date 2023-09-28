@@ -6,3 +6,7 @@ for i in range(1, 11):
 # New string
 
 print("This is a new string")
+
+# Oh its saying something again
+
+print("Welcome!`")
