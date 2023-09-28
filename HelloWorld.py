@@ -23,6 +23,7 @@ numbers = []
 
 while True:
     try:
+
         num = float(input("Enter a number, any non num value will quit): "))
         numbers.append(num)
     except ValueError:
